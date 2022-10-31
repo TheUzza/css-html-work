@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #0f172a;
+    color: white;
+  }
+  
+  main {
+    padding: 0 10rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  a {
+    color: whitesmoke;
+    font-weight: 500;
+  }
+  
+  a:active {
+    color: whitesmoke;
+    font-weight: 500;
+  }
+  
+  .nav {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+    border-bottom: 1px solid rgba(208, 208, 208, 0.1);
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav li {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: whitesmoke;
+  }
+  
+  .nav .login-button {
+    padding: 0.8rem 3rem;
+    border-radius: 2rem;
+    background-color: orangered;
+    color: white;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    opacity: 0.8;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    line-height: 1.2;
+    color: gray;
+    text-align: justify;
+  }
+  
+  .sub-heading {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 600;
+  }
+  
+  .heading {
+    margin-bottom: 1rem;
+  }
+  
+  .articles-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+  }
+  
+  .article-img {
+    height: 40rem;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .side-img {
+    height: 25rem;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .heading-section {
+    padding: 3rem;
+    border-radius: 2rem;
+    background-color: rgba(208, 208, 208, 0.02);
+    border: 1px solid rgba(208, 208, 208, 0.1);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .button-link {
+    margin-top: 2rem;
+    text-align: right;
+    font-size: 1.2rem;
+    background-color: orangered;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+  }
+
+  footer{
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+    border-bottom: 1px solid rgba(208, 208, 208, 0.1);
+    color: whitesmoke;
+  }
+
+  .link-1{
+    padding: 0 10rem;
+  }
+  
+  .link-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .link-3{
+    padding: 0 10rem;
+  }
